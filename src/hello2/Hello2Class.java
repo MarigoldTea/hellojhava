@@ -13,15 +13,15 @@ public class Hello2Class {
 		// 안녕하세요
 		// 나는 누구입니다
 		// 잘 부탁드립니다
-		String b ="조재웅"; // 문자열 변수 선언
-		a = 100; // 위에 미리 선언됨 중복 불가		
-		System.out.println("안녕하세요");
-		System.out.println("나는" + b + "입니다");
-		System.out.println("잘 부탁드립니다");
-		System.out.println(b+"인사드립니다");
-		System.out.println(b+"가 집에 갑니다");
-		System.out.print(b+"체력은 "); // println 은 출력하고 줄바꿈도 포함 
-		System.out.println(a);
+		String b ="1회"; // 문자열 변수 선언
+		a = 0; // 위에 미리 선언됨 중복 불가		
+		System.out.println("나무를 도끼로" + b + "찍었다");
+		System.out.println("나무가 넘어가지 않는다");
+		System.out.println("나무를 도끼로"  + b + "더 찍었다");
+		System.out.println("나무가 넘어간다");
+		System.out.print("남아있는 나무는?");
+		System.out.println(a); // println 은 출력하고 줄바꿈도 포함 
+		
 		
 
  }
