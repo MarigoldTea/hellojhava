@@ -37,12 +37,11 @@ public class MainClass {
 			
 			if (i == 9) {     // 만약에 10번이 찍혔으면
 				
-				System.out.println("수중에 돈이없다."); // 나무가 넘어간다를 출력
+				System.out.println("수중에 돈이없다."); 
 			
 			} else {   // 10번이 아니면
 				
-				System.out.println("돈이 남아있다. ");  // 나무가 넘어가지 않는다를 출력
-			tree = tree - 100;
+				System.out.println("돈이 남아있다. ");  			tree = tree - 100;
 			
 			System.out.print("남아있는 돈은? : ");
 			System.out.println(tree);
