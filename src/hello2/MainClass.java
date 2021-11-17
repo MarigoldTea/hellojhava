@@ -41,7 +41,8 @@ public class MainClass {
 			
 			} else {   // 10번이 아니면
 				
-				System.out.println("돈이 남아있다. ");  			tree = tree - 100;
+				System.out.println("돈이 남아있다. ");  			
+				tree = tree - 100;
 			
 			System.out.print("남아있는 돈은? : ");
 			System.out.println(tree);
