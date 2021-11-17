@@ -3,6 +3,8 @@ package hello2;
 public class icecream {
 
 	public static void main(String[] args) {
+	// ** 반복, 출력 ,배열	
+		
 //아이스크림 판매
 		
 // 아이스크림의 갯수
